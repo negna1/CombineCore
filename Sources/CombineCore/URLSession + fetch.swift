@@ -77,4 +77,13 @@ public enum ErrorType: Error {
     case decoderError
     case httpStatusCode(Int)
     case error(String)
+    
+    var description: String? {
+        switch self {
+        case .error(let loc):
+            return loc
+        default:
+            return nil
+        }
+    }
 }
