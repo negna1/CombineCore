@@ -78,7 +78,7 @@ public enum ErrorType: Error {
     case httpStatusCode(Int)
     case error(String)
     
-    var description: String? {
+    public var description: String? {
         switch self {
         case .error(let loc):
             return loc
