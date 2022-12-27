@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Nato Egnatashvili on 18.11.22.
-//
-
 import Foundation
 
 
